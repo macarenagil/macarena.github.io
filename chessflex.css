@@ -1,0 +1,102 @@
+	#container{
+		margin: 30px auto;
+		padding-bottom: 30px;
+	}
+	.content{
+		width: 70vw;
+		min-width: 	500px;
+		margin: 0px auto;
+		padding: 8px 8px 8px 8px;
+		height: 100%;
+		border-color: #FF0;
+	}
+	.descr{
+		width: 100%;
+
+	}
+
+	.chessprob p{
+		text-align:center;
+	}
+
+	.chessprob button{
+		display:block; margin: 0px auto;
+	}
+
+	.chessprob #answer{
+		display:none; 
+		text-align: center;
+	}
+
+	main div {
+		display: block;
+		border-style: none;
+		border-color: #000;
+		overflow: auto;
+	}
+
+	#chessboard{
+		background: #888;
+	  	border-color: #666 #AAA #999 #666; /*to give it a beveled edge*/
+		margin: 10px auto;
+		padding: 8px 8px 8px 8px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 72vh;
+		height: 72vh;
+		color: #446;
+		text-align: center;
+	}
+	.board img{
+		height: 7vh;
+		width: 7vh;
+	}
+
+	.square1{
+		background-color: #DDD;
+		border-style: none;
+		height: 8.5vh;
+		width: 8.5vh;
+
+	}
+	.square0{
+		background-color: #082;
+		border-style: none;
+		height: 8.5vh;
+		width: 8.5vh;
+	}
+	@media only screen and (max-width: 1024px){
+		#chessboard{
+			width: 72vw;
+			height: 72vw;
+		}
+		 .board img{
+			height: 7vw;
+			width: 7vw;
+		}
+		.square1{
+			background-color: #DDD;
+			border-style: none;
+			height: 8vw;
+			width: 8vw;
+
+		}
+		.square0{
+			background-color: #082;
+			border-style: none;
+			height: 8vw;
+			width: 8vw;
+		}
+
+	#question{
+		text-align:center;
+	}
+	button{
+		display:block; margin: 0px auto;
+	}
+	#answer{
+		display:none; text-align: center;
+	}
+
+	}
