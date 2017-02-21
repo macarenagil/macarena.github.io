@@ -1,1 +1,28 @@
 
+.black {
+     float: left;
+    width: 8vmin;
+    height: 8vmin;
+    background-color: #502900;
+   font-size:5vmin;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;  
+
+    }
+.white {
+    float: left;
+    width: 8vmin;
+    height: 8vmin;
+    background-color: #E6BF83;
+   font-size:5vmin;
+   text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+        
+    
+    }
+    .chessboard {
+   width:73vmin; height:73vmin; border:2vmin solid gray; margin: 5vmin; padding: 6vmin;
+}
+img { border-style: none; width: 4vmin; height: 4vmin; }
