@@ -1,28 +1,55 @@
-
-.black {
-     float: left;
-    width: 8vmin;
-    height: 8vmin;
-    background-color: #502900;
-   font-size:5vmin;
-    text-align:center;
-    display: table-cell;
-    vertical-align:middle;  
-
-    }
-.white {
-    float: left;
-    width: 8vmin;
-    height: 8vmin;
-    background-color: #E6BF83;
-   font-size:5vmin;
-   text-align:center;
-    display: table-cell;
-    vertical-align:middle;
-        
+@charset "utf-8";
+/* CSS Document */
+.fl{
     
-    }
-    .chessboard {
-   width:73vmin; height:73vmin; border:2vmin solid gray; margin: 5vmin; padding: 6vmin;
+    float:left;
 }
-img { border-style: none; width: 4vmin; height: 4vmin; }
+
+.board{
+    
+    max-width:640px;
+    margin: 0 auto;
+    border:20px solid #3CF;
+	overflow:hidden;
+       
+}
+
+.whiteSquare{
+    
+    max-height: 80px;
+    max-width: 80px;
+    width:12.5%;
+    padding-bottom:12.5%;
+    background-color:#F7F7F7;
+		
+}
+a{
+	text-decoration:none;
+	background:#3CF;
+	padding:10px;
+	margin-left:10px;
+	font-weight:bold;}
+
+.blackSquare{
+    
+    max-height: 80px;
+    max-width: 80px;
+    width:12.5%;
+    padding-bottom: 12.5%;
+    background-color:#29BEE8;
+	
+}
+
+.piece{
+    
+    max-width: 100%;
+    max-height: 100%;
+	position:absolute;
+	margin:auto;
+   
+}
+.myimage{
+	background-image:url(crown.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:45px;}
