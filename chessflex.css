@@ -49,6 +49,12 @@ a{
    
 }
 .myimage{
+	background-image:url(king.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:45px;}
+
+.myimage1{
 	background-image:url(crown.png);
 	background-position:center;
 	background-repeat:no-repeat;
