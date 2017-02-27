@@ -59,3 +59,9 @@ a{
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:45px;}
+
+.menu a{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+}
