@@ -66,6 +66,12 @@ a{
 	background-repeat:no-repeat;
 	background-size:48px;}
 
+.blackpawn{
+	background-image:url(black_pawn.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:48px;}
+
 .menu a{
     display: inline-block;
     overflow: hidden;
