@@ -72,6 +72,13 @@ a{
 	background-repeat:no-repeat;
 	background-size:48px;}
 
+
+.myimage4{
+	background-image:url(white_pawn.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:48px;}
+
 .menu a{
     display: inline-block;
     overflow: hidden;
