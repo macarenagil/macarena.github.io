@@ -1,13 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-    background: #eabeea;
-    }
 
 h2 {
 	text-align:center;
 }	
+
+menu { 
+	text-align:center
+}
+
+body {
+    background: #eabeea;
+    }
+
 
 .fl{
     
