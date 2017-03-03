@@ -64,7 +64,7 @@ a{
    
 }
 .myimage{
-	background-image:url(king.png);
+	background-image:url(black_rook.png);
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:45px;}
@@ -76,23 +76,70 @@ a{
 	background-size:45px;}
 
 .myimage2{
-	background-image:url(black_queen.png);
+	background-image:url(black_bishop.png);
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:48px;}
 
 .myimage3{
-	background-image:url(black_pawn.png);
+	background-image:url(black_queen.png);
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:48px;}
 
 
 .myimage4{
+	background-image:url(black_king.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:48px;}
+
+
+.myimage5{
+	background-image:url(black_pawn.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:48px;}
+
+
+.myimage6{
+	background-image:url(white_rook.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:45px;}
+
+.myimage7{
+	background-image:url(white_knight.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:45px;}
+
+.myimage8{
+	background-image:url(white_bishop.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:48px;}
+
+.myimage9{
+	background-image:url(white_queen.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:48px;}
+
+
+.myimage10{
+	background-image:url(white_king.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:48px;}
+
+
+.myimage11{
 	background-image:url(white_pawn.png);
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:48px;}
+
 
 .menu a{
     display: inline-block;
