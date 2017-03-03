@@ -5,6 +5,10 @@ body {
     background: #eabeea;
     }
 
+h2 {
+	text-align:center;
+}	
+
 .fl{
     
     float:left;
