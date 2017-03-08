@@ -1,0 +1,52 @@
+body {
+	background: #82CAFF;
+	}
+  
+	h1 {
+	font-size: 30px;
+	color: #800080;
+	font-style: italic;
+	}
+  
+	*{
+	text-align: center;
+	font-family: Comic Sans MS;
+	}
+  
+	h2 {
+	font-size: 30px;
+   	background-color: #FFFFFF;
+    	color: #30363C;
+	padding: 5px;	
+    	margin: 0 auto;
+    	margin-left: -0.6%;
+    	margin-right: -0.6%;
+    	border: 4px solid pink;
+	}
+  
+	a:link {
+	text-decoration: none;
+	}
+	
+    	ul {
+    	list-style: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: #8834bc;
+    	justify-content: center;
+    	display: flex;
+    	margin-left: -0.6%;
+    	margin-right: -0.6%;
+    	}
+      
+    	li a {
+    	text-decoration: none;
+    	color: #E3E7E8;
+    	float: left;
+    	padding: 10px 50px;
+    	}
+      
+    	div.photo {
+    	padding-top: 10px;
+    	} 
