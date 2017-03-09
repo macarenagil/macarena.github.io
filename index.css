@@ -1,7 +1,7 @@
 body { background-color: #6699ff;
       background-image: url(gradientblue.jpg);
       color: #d6e3ff;
-	  font-family: Verdana, Arial, sans-serif;
+	font-family: Verdana;
 }
 #wrapper { width: 80%;
           margin-right: auto;
@@ -15,7 +15,6 @@ header { background-color: #000066;
        color: #FFFFFF;
 	   background-image: url(background.png);
 	   background-position: center;
-	   background-size:cover;
 	   background-repeat: no-repeat;
 }
 h1 { text-align: center;
@@ -38,6 +37,13 @@ nav a:hover { color: #CCCCCC; }
 			color: #003366;
 			font-size: 1.1em;
 			text-shadow: 1px 1px 1px #666;
+}
+
+.face {
+        width: 200px;
+        height: 200px;
+        float: left; 
+        margin: 0 15px 15px 0px;       
 }
 main { margin-left: 180px;
       padding-right: 20px;
