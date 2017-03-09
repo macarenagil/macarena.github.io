@@ -1,20 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
-
-h2 {
-	text-align:center;
-}	
-
-.menu { 
-	text-align:center
-}
-
-body {
-    background: #eabeea;
-    }
-
-
 .fl{
     
     float:left;
@@ -22,7 +7,7 @@ body {
 
 .board{
     
-    max-width:640px;
+    max-width:100%;
     margin: 0 auto;
     border:20px solid #3CF;
 	overflow:hidden;
@@ -31,24 +16,18 @@ body {
 
 .whiteSquare{
     
-    max-height: 80px;
-    max-width: 80px;
+    max-height: 100px;
+    max-width: 100px;
     width:12.5%;
     padding-bottom:12.5%;
     background-color:#F7F7F7;
 		
 }
-a{
-	text-decoration:none;
-	background:#3CF;
-	padding:10px;
-	margin-left:10px;
-	font-weight:bold;}
 
 .blackSquare{
     
-    max-height: 80px;
-    max-width: 80px;
+    max-height: 100px;
+    max-width: 100px;
     width:12.5%;
     padding-bottom: 12.5%;
     background-color:#29BEE8;
@@ -63,6 +42,7 @@ a{
 	margin:auto;
    
 }
+
 .myimage{
 	background-image:url(black_rook.png);
 	background-position:center;
