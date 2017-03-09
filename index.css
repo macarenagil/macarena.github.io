@@ -85,3 +85,120 @@ header, nav, main, footer { display: block; }
   #mobile { display: inline; }
  #desktop { display: none; }
 }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .col-1,.col-2,.col-full{
+    float: left;
+  }
+  .col-full {
+    width: 100%;
+  }
+  .col-2 {
+    width: 66.66666667%;
+  }
+  .col-1 {
+    width: 33.33333333%;
+  }
+
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+   .col-1,.col-2,.col-full {
+    float: left;
+  }
+  .col-full {
+    width: 100%;
+  }
+  .col-2 {
+    width: 66.66666667%;
+  }
+  .col-1 {
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}.col-1,.col-2,.col-full{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+ 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+@charset "utf-8";
+/* CSS Document */
+.fl{
+    
+    float:left;
+}
+
+.board{
+    
+    max-width:100%;
+    margin: 0 auto;
+    border:20px solid #3CF;
+	overflow:hidden;
+       
+}
+
+.whiteSquare{
+    
+    max-height: 100px;
+    max-width: 100px;
+    width:12.5%;
+    padding-bottom:12.5%;
+    background-color:#F7F7F7;
+		
+}
+
+.blackSquare{
+    
+    max-height: 100px;
+    max-width: 100px;
+    width:12.5%;
+    padding-bottom: 12.5%;
+    background-color:#29BEE8;
+	
+}
+
+.piece{
+    
+    max-width: 100%;
+    max-height: 100%;
+	position:absolute;
+	margin:auto;
+   
+}
+.myimage{
+	background-image:url(crown.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:45px;}
+
+.clearfix:before,
+.clearfix:after{
+	display: table;
+  content: " ";
+  clear:both;}
+  .center{
+	  text-align:center;}
