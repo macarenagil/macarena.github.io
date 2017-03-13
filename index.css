@@ -1,28 +1,35 @@
-body { background-color: #6699ff;
-      background-image: url(gradientblue.jpg);
-      color: #d6e3ff;
-	font-family: Verdana;
+body {background-color: #f1ccf9;
+      color: #000000;
+      font-family: Verdana, Arial, sans-serif;
 }
-#wrapper { width: 80%;
+
+
+#wrapper {width: 80%;
           margin-right: auto;
-		  margin-left: auto;
-		  min-width: 700px;
-		  max-width: 1024px;
-		  background-color: #FFFFFF;
-		  color: #000066;
+          margin-left: auto;
+	  min-width: 700px;
+          max-width: 1024px;
+          background-color: #FFFFFF;
+          color: #6c4e59;
 }
-header { background-color: #000066;
-       color: #FFFFFF;
-	   background-image: url(background.png);
-	   background-position: center;
-	   background-repeat: no-repeat;
+
+
+header { background-color: #bccfdb;
+      color: #ffffff;
+      background-image: none;
+      background-repeat: repeat;
+      background-position: center;
+
 }
+
 h1 { text-align: center;
      font-size: 3em;
      padding: 10px;
-	 line-height: 150%;
-	 text-shadow: 3px 3px 3px #CCCCCC;
+	 line-height: 130%;
+	 text-shadow: 3px 3px 3px #CCCCCC;	 
 }
+
+
 nav { font-weight: bold; 
 	 float: left;
 	 width: 150px;
