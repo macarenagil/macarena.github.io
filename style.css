@@ -1,0 +1,228 @@
+body {
+    font: 20px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+.database{
+
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    line-height: 2.0;
+    background-color: #f4f4f4;
+
+}
+
+.sitemap{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    line-height: 2.0;
+    background-color: #f4f4f4;
+
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    background: #e8491d;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+#video {
+    margin-top: 30px;
+    width: 100%;
+}
+
+#video h3 {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+video {
+    width: 100%;
+}
+
+.sidebar-and-image {
+    text-align: center;
+}
+
+/* Sidebar */
+aside#sidebar {
+    display: inline-block;
+    width: 40%;
+    margin: 10px 0;
+}
+
+.dark {
+    padding: 15px;
+    background: #e8491d;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.fitness-workout {
+    vertical-align: top;
+    margin-top: 30px;
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    aside#sidebar {
+        width: 100%;
+    }
+
+    .fitness-workout {
+        width: 100%;
+    }
+}
+
+/*Header **/
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+
+header #branding {
+    float: left;
+
+}
+
+header #branding h1 {
+
+    margin: 0;
+}
+
+header nav {
+
+    float: right;
+    margin-top: 10px;
+}
+
+header .current a {
+    color: #e8491d;
+    font-weight: bold;
+
+}
+
+header .highlight, .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+
+}
+
+/*Showcase */
+#showcase {
+    min-height: 10px;
+    background: url('../img/show.jpg') no-repeat 0 -10px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px #FF0000;
+    padding-bottom: 100px;
+}
+
+#showcase h2 {
+    margin-top: 100px;
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #FF0000;
+
+}
+
+#showcase p {
+
+    font-size: 26px;
+}
+
+/*Newsletter */
+#newsletter {
+    padding: 20px;
+    color: #ffffff;
+    background: #35424a;
+    border-top: #e8491d 4px solid;
+    border-bottom: #e8491d 4px solid;
+
+}
+
+#newsletter input[type="email"] {
+
+}
+
+/*Boxes */
+
+#boxes {
+    margin-top: 20px;
+
+}
+
+#boxes .boxes img {
+    width: 90px;
+
+}
+
+#aboutme {
+    font-size: 18px;
+    font-family: monospace;
+    line-height: 2.0;
+
+}
+
+@media print { 
+.hidden-print
+{ display: none !important;  }
+}
+
+
+footer {
+    padding: 40px;
+    color: #ffffff;
+    background-color: #e8481d;
+}
